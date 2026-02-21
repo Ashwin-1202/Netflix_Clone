@@ -6,8 +6,8 @@
         function default_home_carouselInit() {
             $('.owl-carousel.trending_active').owlCarousel({
                 dots: false,
-                loop: false, /* FIXED: Set to false to stop at #1 */
-                rewind: true, /* Optional: If true, clicking prev at #1 jumps to #10. If false, it just stops. */
+                loop: false,
+                rewind: true,
                 margin: 10,
                 stagePadding: 0,
                 nav: true,
